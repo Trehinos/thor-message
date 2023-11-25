@@ -1,0 +1,41 @@
+{
+  "name": "trehinos/thor-message",
+  "description": "Un module qui décrit des Internet Message (emails)",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Thor\\Database\\PdoExtension\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sébastien GELDREICH",
+      "email": "trehinos@gmail.com"
+    }
+  ],
+  "repositories": {
+    "trehinos/thor-common": {
+      "type": "vcs",
+      "url": "https://asgard.trehinos.eu/thor2/thor-common"
+    },
+    "trehinos/thor-filesystem": {
+      "type": "vcs",
+      "url": "https://asgard.trehinos.eu/thor2/thor-filesystem"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "ext-imap": "*",
+    "trehinos/thor-common": "dev-master",
+    "trehinos/thor-filesystem": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.*"
+  }
+}
