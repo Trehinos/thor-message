@@ -5,6 +5,6 @@ An implementation of :
 * RFC2047 - UTF-8 Headers
 * RFC2046 - MIME Media
 
-# Licence
+# License
 &copy; 2023 Sébastien Geldreich
-Distributed under the MIT Licence.
+Distributed under the MIT License.
