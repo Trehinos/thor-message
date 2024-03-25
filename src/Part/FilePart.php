@@ -4,8 +4,8 @@ namespace Thor\Message\Part;
 
 use Exception;
 use Thor\Common\Guid;
-use Thor\FileSystem\FileSystem;
 use Thor\Message\Headers\Headers;
+use Thor\Common\FileSystem\FileSystem;
 use Thor\Message\Headers\ContentDisposition;
 use Thor\Message\Headers\ContentTransferEncoding;
 

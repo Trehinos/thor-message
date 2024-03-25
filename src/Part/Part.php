@@ -4,7 +4,6 @@ namespace Thor\Message\Part;
 
 use Thor\Message\Headers\Headers;
 use Thor\Message\Headers\ContentTransferEncoding;
-
 abstract class Part
 {
 
