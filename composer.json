@@ -22,7 +22,7 @@
   "require": {
     "php": "^8.2",
     "ext-imap": "*",
-    "trehinos/thor-common": "dev-master"
+    "trehinos/thor-common": "@stable"
   },
   "require-dev": {
     "phpunit/phpunit": "10.*"
