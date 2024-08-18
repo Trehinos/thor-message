@@ -22,7 +22,7 @@ class Email extends Message
         public readonly array $images = [],
         public readonly array $files = [],
         public readonly string $charset = 'utf-8',
-        public readonly string $lang = 'fr',
+        public readonly string $lang = 'en',
         Headers $headers = new Headers()
     ) {
         parent::__construct($from, $subject, [

@@ -11,7 +11,7 @@ class HtmlPart extends TextPart
 
     public function __construct(
         string $body,
-        string $charset = 'utf-8',
+        string $charset = 'UTF-8',
         ContentTransferEncoding $encoding = ContentTransferEncoding::BASE64,
         ?Headers $additionalHeaders = null
     ) {
@@ -26,8 +26,8 @@ class HtmlPart extends TextPart
     public static function embedded(
         string $title,
         string $body,
-        string $lang = 'fr',
-        string $charset = 'utf-8',
+        string $lang = 'en',
+        string $charset = 'UTF-8',
         ContentTransferEncoding $encoding = ContentTransferEncoding::BASE64,
         ?Headers $additionalHeaders = null
     ): self {
@@ -48,8 +48,8 @@ class HtmlPart extends TextPart
         string $filename,
         string $title,
         string $body,
-        string $lang = 'fr',
-        string $charset = 'utf-8',
+        string $lang = 'en',
+        string $charset = 'UTF-8',
         ContentTransferEncoding $encoding = ContentTransferEncoding::BASE64,
         ?Headers $additionalHeaders = null
     ): self {
